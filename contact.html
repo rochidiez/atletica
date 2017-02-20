@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com -->
+<!--  Last Published: Mon Feb 20 2017 22:41:14 GMT+0000 (UTC)  -->
+<html data-wf-page="5853d21f4967918f48e0e2a5" data-wf-site="5853d21f4967918f48e0e29b">
+<head>
+  <meta charset="utf-8">
+  <title>Atlética Fitness - Contacto</title>
+  <meta content="Nos encanta hablar sobre deporte y salud. Escribinos y enterate de todos los cursos y capacitaciones!" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/atletica-fitness-b01f20.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Montserrat:400,700","Lora:regular,italic,700","Oxygen:300,regular,700"]
+      }
+    });
+  </script>
+  <script src="js/modernizr.js" type="text/javascript"></script>
+  <link href="images/iso-min.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/iso-.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div>
+    <div class="navbar w-nav" data-animation="over-right" data-collapse="tiny" data-duration="400" data-ix="navbar">
+      <div class="w-container">
+        <a class="logo w-nav-brand" href="index.html"><img class="logo_image" src="images/logoblanco.png">
+        </a>
+        <nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="index.html">Quiénes somos</a><a class="nav-link w-nav-link" href="nuestros-cursos.html">NUESTROS CURSOS</a><a class="hide nav-link w-nav-link" href="notas.html">notas</a><a class="nav-link w-nav-link" href="contact.html">Contacto</a><a class="close-x w-hidden-main w-hidden-medium w-hidden-small" href="#">×</a>
+        </nav>
+        <div class="menu-button w-clearfix w-hidden-main w-hidden-medium w-hidden-small w-nav-button">
+          <div class="menu-icon w-icon-nav-menu"></div>
+          <div class="menu-link">MENU</div>
+        </div>
+      </div>
+    </div>
+    <div class="inner-hero">
+      <div class="container">
+        <h1 class="hero-header">Contactate con nosotros</h1>
+      </div>
+    </div>
+    <div class="main-section" id="posts">
+      <div class="w-container">
+        <div class="w-row">
+          <div class="w-col w-col-6">
+            <h3>Contactate con nosotros</h3>
+            <p>Si te interesa lo que hacemos escribinos y charlamos!</p><a class="facebook social-text" href="https://www.facebook.com/FitnessAtletica" target="_blank">Seguinos en Facebook</a><a class="instagram social-text" href="https://www.instagram.com/fitnessatletica/" target="_blank">Seguinos en Instagram</a>
+          </div>
+          <div class="w-col w-col-6">
+            <h3>Envianos tus datos</h3>
+            <div class="w-form" ng-submit="submit()" on-response-redirect="&#39;/ok&#39;" w-form="contact">
+              <form class="contact-form" data-name="Email Form" id="email-form" name="email-form">
+                <label class="field-label" for="Nombre">Nombre:</label>
+                <input class="contact-field w-input" data-name="Nombre" id="Nombre" maxlength="256" name="Nombre" ng-model="data.name" placeholder="Ej: Matías" type="text">
+                <label class="field-label" for="email">Dirección de email</label>
+                <input class="contact-field w-input" data-name="Email" id="email" maxlength="256" name="email" ng-model="data.emailcontact" placeholder="Ej: matias@atleticafitness.com.ar" required="required" type="email">
+                <label class="field-label" for="Message">Escribinos tu mensaje</label>
+                <textarea class="contact-field message w-input" data-name="Message" id="Message" maxlength="5000" name="Message" ng-model="data.mensaje" placeholder="Quería consultar sobre..."></textarea>
+                <input class="button w-button" data-wait="Estamos enviando tu consulta..." type="submit" value="Enviar">
+              </form>
+              <div class="success-message w-form-done">
+                <p class="success-text">Gracias por escribirnos! Te vamos a responder lo antes posible.</p>
+              </div>
+              <div class="w-form-fail">
+                <p>Ui, algo salió mal. Revisa los datos y volvé a intentarlo por favor :)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dark main-section">
+      <div class="w-container">
+        <div class="section-heading">
+          <h2 class="white">Dejanos tu email para que te contactemos</h2>
+          <div class="med-divider"></div>
+        </div>
+        <div class="form-wrapper w-form" ng-submit="submit()" on-response-redirect="&#39;/ok&#39;" w-form="contact">
+          <form class="w-clearfix" data-name="Contacto" id="wf-form-Contacto" name="wf-form-Contacto">
+            <input class="field w-input" data-name="Email" id="Email-2" maxlength="256" name="Email" ng-model="data.emaifooter" placeholder="Ej: tunombre@atleticafitness.com" required="required" type="email">
+            <input class="submit-button w-button" data-wait="Un minuto por favor..." type="submit" value="Enviar">
+          </form>
+          <div class="success-message w-form-done">
+            <p>Gracias! te vamos a contactar lo antes posible!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-section">
+        <div class="w-container">
+          <div class="w-row">
+            <div class="w-col w-col-4 w-col-small-4">
+              <a class="footer-logo w-inline-block" href="index.html"><img class="logo_image" src="images/logoblanco.png">
+              </a>
+            </div>
+            <div class="footer-links w-col w-col-8 w-col-small-8"><a class="footer-link" href="index.html">quienes somos</a><a class="footer-link" href="nuestros-cursos.html">Nuestros cursos</a><a class="footer-link hide" href="notas.html">notas</a><a class="footer-link" href="contact.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://waaws-api.herokuapp.com/atletica/browser/ng-wapi.js"></script>
+</body>
+</html>
